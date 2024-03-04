@@ -6,10 +6,17 @@ Script is based on systemd unit file from:
 
 ## Usage
 
-Download the script:
+Download the script, make executable, and run:
 ```shell
- 
+$ wget -O sysprep-linux.sh https://raw.githubusercontent.com/noipryan/sysprep-linux/main/sysprep-linux.sh 
+
+$ chmod +x sysprep-linux.sh
+
+$ ./sysprep-linux.sh
 ```
+
+Run the script as needed after installing software / updating the gold image
+
 
 
 
